@@ -33,9 +33,9 @@ And run in your terminal your app
 ```
 Congratz :) you can start to create and test your app's components
 
-The boilerplate comes with some funtionalities by default, so its designed for start to program commands quickly. Each command its represented by a component, when you call a command from your terminal, your actually rendering a component.
+This boilerplate comes with some functionalities by default, since it's designed to start building CLI apps very faster. Each command its represented by a component, when you call a command from your terminal, your actually rendering a component.
 
-Your flags are equivalent to components props, when you a command with any flags, you're actually calling a component with its props.
+Your flags are the equivalent to component's props, when you call command with any flags, you're actually calling a component with its props.
 
 Boilerplate structure
 ```
