@@ -13,11 +13,11 @@ To start creating your own application you need to change the version, name and 
 
 ```json
 {
-  "name": [app-name],
+  "name": "[app-name]",
   "bin": {
-    [app-bin]: "lib/index.js"
+    "[app-bin]": "lib/index.js"
   },
-  "version": [app-version],
+  "version": "[app-version]",
   ...
  }
 ```
