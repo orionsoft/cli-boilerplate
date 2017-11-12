@@ -26,7 +26,8 @@
     "ink-spinner": "^1.0.0",
     "ink-text-input": "^1.1.1",
     "lodash": "^4.17.4",
-    "meow": "^3.7.0"
+    "meow": "^3.7.0",
+    "prop-types": "^15.6.0"
   },
   "devDependencies": {
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
