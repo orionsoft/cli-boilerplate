@@ -1,6 +1,9 @@
 {
   "name": "cli-boilerplate",
   "version": "1.1.0",
+  "bin": {
+    "orionsoft": "lib/index.js"
+  },
   "main": "lib/index.js",
   "license": "MIT",
   "scripts": {
@@ -19,6 +22,7 @@
     "babel-preset-react": "^6.24.1",
     "cli-table2": "^0.2.0",
     "colors": "^1.1.2",
+    "eslint-plugin-react": "^7.4.0",
     "ink": "^0.3.0",
     "ink-checkbox-list": "^1.3.1",
     "ink-confirm-input": "^1.0.3",
@@ -33,8 +37,5 @@
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "eslint-config-orionsoft": "^1.2.7"
   },
-  "preferGlobal": true,
-  "bin": {
-    "orionsoft": "lib/index.js"
-  }
+  "preferGlobal": true
 }
