@@ -1,16 +1,17 @@
-import {h, render, Component} from 'ink'
-
-import {Parent} from './helloWorld'
-import Testing from './testComponent'
+import {h} from 'ink'
+import {SayHello} from './sayHello'
+import SayHelloName from './sayHelloName'
 
 // This is where you put your inputs, each input call a Component
 export default [
   {
-    input: 'test',
-    render: <Parent />
+    input: 'say-hello',
+    render: <SayHello />,
+    help: 'terminal greets you'
   },
   {
-    input: 'hello',
-    render: <Testing />
+    input: 'say-hello-to-me',
+    render: <SayHelloName />,
+    help: 'terminal greets you by your name'
   }
 ]

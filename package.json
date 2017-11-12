@@ -1,6 +1,6 @@
 {
   "name": "cli-boilerplate",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "main": "lib/index.js",
   "license": "MIT",
   "scripts": {
@@ -8,6 +8,7 @@
     "watch": "node watch.js"
   },
   "dependencies": {
+    "aliases": "^0.1.0",
     "babel-cli": "^6.24.1",
     "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-plugin-transform-h-jsx": "^1.0.0",

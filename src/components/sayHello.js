@@ -10,7 +10,7 @@ export class Child extends Component {
   }
 }
 
-export class Parent extends Component {
+export class SayHello extends Component {
   constructor(props, context) {
     super(props, context)
 
@@ -20,6 +20,11 @@ export class Parent extends Component {
   }
 
   render(props, state) {
-    return <Text>Hsello!</Text>
+    const {name, lastname} = props
+    return (
+      <Text>
+        Hello! {name} {lastname}
+      </Text>
+    )
   }
 }

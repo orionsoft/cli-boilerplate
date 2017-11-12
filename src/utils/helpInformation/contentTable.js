@@ -1,5 +1,5 @@
 import Table from 'cli-table2'
-export default function() {
+export default function(title, body) {
   const table = new Table({
     chars: {
       top: '',
@@ -20,27 +20,10 @@ export default function() {
     },
     style: {'padding-left': 5, 'padding-right': 10}
   })
-  table.push([], ['foo', 'bar'], ['frobnicate', 'bar'], ['frobnicate', 'bar'])
+
+  table.push([], ...body)
 
   return `
-  Orionsoft Cli-boilerplate
-
-  Usage:
-
-    $ orionsoft [command] --[flags]
-
-  Commands:
+  ${title}:
   ${table.toString()}`
 }
-// instantiate
-// const help = `
-// Usage
-//   $ foo <input>
-//
-// Options
-//   --rainbow, -r  Include a rainbow
-//   --cloud, -r  Include a rainbow
-//
-// Examples
-//   $ foo unicorns --rainbow
-//   🌈 unicorns 🌈

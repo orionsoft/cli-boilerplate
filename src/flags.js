@@ -1,12 +1,14 @@
 export default {
   flags: {
-    rainbow: {
-      type: 'boolean',
-      alias: 'r'
+    name: {
+      type: 'string',
+      alias: 'n',
+      help: 'Your name'
     },
-    cloud: {
-      type: 'boolean',
-      alias: 'c'
+    lastname: {
+      type: 'string',
+      alias: 'l',
+      help: 'Your lastname'
     }
   }
 }
