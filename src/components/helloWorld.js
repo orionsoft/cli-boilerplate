@@ -1,4 +1,4 @@
-import {h, render, Component} from 'ink'
+import {h, render, Component, Text} from 'ink'
 
 export class Child extends Component {
   render() {
@@ -20,6 +20,6 @@ export class Parent extends Component {
   }
 
   render(props, state) {
-    return <div>hello</div>
+    return <Text>Hsello!</Text>
   }
 }

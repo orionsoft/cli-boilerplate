@@ -1,7 +1,7 @@
-import {h, render, Component} from 'ink'
+import {h, render, Component, Text} from 'ink'
 
 export default class Testing extends Component {
   render(props, state) {
-    return `<div>${props.cloud}</div>`
+    return <Text>Hsello!</Text>
   }
 }
