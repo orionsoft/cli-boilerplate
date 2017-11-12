@@ -50,7 +50,7 @@ Boilerplate structure
 ```
 ### Registering flags
 
-When your register a new flag you might provide an alias and help text for this, the boilerplate will register it in the help text of your application automatically. And you will be able to call this flag as a props in any component
+When you create a flag you can assign an alias and a help text, the boilerplate will register it in the help text of your application automatically. And you will be able to call this flag as a props in any component
 
 ```jsx
 // flags.js
