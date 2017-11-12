@@ -12,13 +12,13 @@ $ git clone https://github.com/orionsoft/cli-boilerplate [app-name]
 To start creating your own application you need to change the version, name and bin into package.json according to your application information.
 
 ```json
+// package.json
 {
   "name": "[app-name]",
   "bin": {
     "[app-bin]": "lib/index.js"
   },
   "version": "[app-version]",
-  ...
  }
 ```
 Then run the following commands:
